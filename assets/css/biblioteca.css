@@ -1,0 +1,30 @@
+
+.biblioteca-games {
+    margin: 0 30px;
+    padding: 20px;
+
+}
+
+.tabela-jogos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 20px;
+    justify-content: left;
+    gap: 20px;
+    margin-bottom: 15px;
+    border-bottom: solid white 1px;
+}
+
+.img-tabela {
+    width: 100px;
+}
+
+.jogos-status {
+    background-color: transparent;
+    padding: 8px;
+    border: solid white 1px;
+    color: var(--text-color1);
+    border-radius: 10px;
+    text-decoration: none;
+}

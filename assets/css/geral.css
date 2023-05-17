@@ -1,0 +1,98 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bg-color);
+}
+
+:root {
+    --bg-color: #011526;
+    --bg-color2: #012E40;
+    --text-color: rgb(228, 228, 228);
+    --text-color2: rgb(117, 45, 131);
+}
+
+.text-site {
+    padding: 10px;
+}
+
+.text-site h6 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.text-site span {
+    color: var(--text-color2);
+
+}
+
+.text-site h5 {
+    font-size: 30px;
+    text-align: center;
+    border-bottom: solid var(--text-color) 1px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.text-site h4 {
+    font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--text-color);
+}
+
+.fa-download {
+    color: var(--text-color2);
+}
+
+.fa-star {
+    color: yellow;
+}
+
+.fa-eye {
+    color: var(--text-color);
+}
+.fa-check{
+    background-color: var(--text-color);
+    color: var(--text-color2);
+    padding: 2px;
+    border-radius: 50%;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color2);
+}
+
+a:hover {
+    color: var(--text-color);
+}
+
+.roda-pe {
+    margin-top: 30px;
+    padding: 30px;
+    border-top: solid var(--text-color) 1px;
+    text-align: center;
+    color: var(--text-color);
+}

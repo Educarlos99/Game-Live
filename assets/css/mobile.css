@@ -1,0 +1,75 @@
+
+@media screen and (max-width: 600px) {
+    .cab-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+        border-bottom: solid white 1px;
+    }
+
+    .area-pesquisa {
+        padding: 5px;
+    }
+
+    .input-pesquisa {
+        width: 200px;
+        height: 40px;
+        padding-left: 10px;
+        border: none;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    .btn-area-pesquisa {
+        height: 40px;
+        padding-right: 8px;
+        width: 50px;
+        border: none;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        cursor: pointer;
+    }
+
+    .img-user {
+        width: 50px;
+        border-radius: 50%;
+    }
+
+    .nav-area {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    /*Area de text*/
+
+    .text-site {
+        width: auto;
+        text-align: center;
+    }
+
+    .banner-background {
+        background-image: url(../img/img-bg.jpg);
+        background-position: center center;
+        background-size: cover;
+        width: auto;
+        border-radius: 20px;
+        padding: 80px;
+
+    }
+
+    .box-container {
+        background-color: var(--bg-color);
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+
+    .btn-pesquisa:hover {
+        background-color: var(--text-color2);
+        color: white;
+    }
+
+}

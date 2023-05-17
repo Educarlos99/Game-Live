@@ -1,0 +1,56 @@
+
+.cab-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    border-bottom: solid white 1px;
+}
+
+.img-logo-game {
+    width: 300px;
+}
+
+.area-pesquisa {
+    padding: 8px;
+}
+
+.input-pesquisa {
+    width: 350px;
+    height: 35px;
+    padding-left: 10px;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.btn-area-pesquisa {
+    height: 35px;
+    padding-right: 8px;
+    width: 50px;
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+}
+
+.img-user {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.nav-area {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.links {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.links:hover {
+    color: var(--text-color2);
+}
